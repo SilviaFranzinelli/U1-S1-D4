@@ -1,0 +1,197 @@
+/* IMPOSTAZIONI GENERALI */
+body { 
+    font-family:"Poppins", sans-serif;
+    background-image: url(./assets/img/sfondo.png);
+    background-repeat: repeat;
+    background-position: top center;
+}
+
+/* HEADER */
+header {
+    background-color: #0384A3 ;
+    background: linear-gradient(to bottom, #0384A3 0%, #036D85 100%);
+    margin:15px;
+    padding: 20px;
+    color:white;
+    text-transform: uppercase;
+    box-shadow:1px 1px 5px black;
+}
+div p {
+    text-align: center;
+}
+nav {
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+div{
+    line-height: 40px;
+}
+hr {border-style: none;}
+
+/* MAIN */
+main {
+    background-color: white;
+    margin: 15px;
+    padding: 15px;
+    line-height: 20px;
+    box-shadow:1px 1px 5px black;
+}
+
+#para1 {
+    padding: 10px;
+    line-height: normal;
+    color: gray;
+}
+#para2 {margin-bottom: 10px;}
+#para2 strong{
+    color: #9A3370;
+    font-weight: bold;
+}
+#para3 {margin-bottom: 10px;}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#para4 strong {
+    color: #9A3370;
+    font-weight: bold;
+}
+ol {padding: 20px;}
+#para5 {margin-bottom: 15px;}
+
+#para6 {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+#para6 a{
+    color: #3db5d9;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+iframe {
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+article h1{
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+article ul li {
+    list-style-type: style type;
+    line-height: 30px;
+}
+li code {
+    background-color: rgb(216, 215, 215);
+    border-radius: 4px;
+}
+article ul {padding-inline: 30px;}
+
+/* TABELLE */
+
+caption {
+    font-weight: bold;
+    font-style: oblique;
+}
+th, td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+th {
+    background-color: #3F6BCA;
+    color: white;
+}
+
+/* FORM */
+section h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #A3A3A3;
+    width: 90px;
+    text-align: center;
+    padding: 7px;
+    box-shadow:1px 1px 5px black;
+    margin-bottom: 10px;
+}
+section{
+    background-color:#E3E3E3;
+    margin: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+section p {margin-bottom: 10px;}
+form input {
+    border-style: none;
+    border-bottom-style: dotted;
+    padding: 3px;
+}
+form button {
+    background-color:#3F6DC5;
+    font-weight: bold;
+    color: white;
+    border-style: none;
+    padding: 3px;
+}
+
+/* ELEMENTI NELL' ASIDE */
+aside h2 {
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-top: 10px;
+}
+aside div {
+    background-color: #E3E3E3;
+    margin-top: 15px;
+    padding: 10px;
+}
+aside div a {
+    color: #3db5d9;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#para7 {text-align: left;}
+#para8 {text-align: right;}
+#para9 {text-align: left;}
+#para10 {text-align: right;}
+#para11 {text-align: left;}
+#para12 {text-align: right;}
+
+aside {padding-bottom: 30px;}
+
+/* FOOTER */
+
+footer {
+    background-color: #065566;
+    background: linear-gradient(to bottom, #065566 0%, #2E393B 100%);
+    margin: 15px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+}
+#para13 {padding-bottom: 20px;}
+footer address a {
+    color: #D92FCC;
+    font-weight: bold;
+    text-decoration: underline;
+}
+address {padding-bottom: 10px;}
